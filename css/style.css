@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+
+
+*{ font-family: Cormorant Garamond;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+  }
+  
+  .nav-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.4rem;
+    background-color:whitesmoke;
+    max-width: 100%;
+    min-width: 700px;
+    z-index: 100;
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  .mobile-nav-links {
+    display: none;
+  }
+  
+  .logo {
+    width: 20%;
+  }
+  
+  .logo img {
+    width: 15em;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    gap: 2em;
+    width: -60%;
+    padding: 0.7rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(255, 196, 0);
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  .mobile-nav-links {
+    display: none;
+  }
+  
+  .logo {
+    width: 20%;
+  }
+  
+  .logo img {
+    width: 15em;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    gap: 2em;
+    width: -60%;
+    padding: 0.7rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(255, 196, 0);
+  }
+
+.video-container{
+    padding-bottom: 100px;
+
+}
+
+.video{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 110%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover;
+}
+
+.main-text {
+    position: absolute;
+    top: 10rem;
+    padding: 1rem;
+    font-size: 50px; ;
+  }
+
+  .programmes {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    z-index: 1;
+  }
+  
+.c-text-links-container {
+    width: 11rem;
+  }
+  
+.courses-text {
+    color: #05375c;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+.courses-text:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  
+ .courses-text {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    cursor: default;
+  }
+  
+  
+ .courses-text h2 {
+    font-size: 1.7rem;
+  }
+  
+.courses-text p {
+    text-align: left;
+  }
+
